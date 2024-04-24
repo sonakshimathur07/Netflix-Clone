@@ -1,0 +1,83 @@
+.main-footer{
+    margin-top: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(111, 107, 107);
+    font-weight: 600;
+    height: 60vh;
+    background-color: black;
+}
+
+.main-footer-first {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    margin-right: 4rem;
+    margin-left: 4rem;
+    color: white;
+}
+
+.main-footer-first {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: black;
+    margin-right: 4rem;
+    margin-left: 4rem;
+    color: white;   
+}
+
+.main-footer-second {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: black;
+    margin-right: 4rem;
+    margin-left: 4rem;
+    color: white; 
+}
+
+.main-footer-third {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: black;
+    margin-right: 4rem;
+    margin-left: 4rem;
+    color: white; 
+}
+
+.main-footer-fourth {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: black;
+    margin-right: 4rem;
+    margin-left: 4rem;
+    color: white; 
+}
+
+.main-footer-fifth {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: black;
+    margin-right: 4rem;
+    margin-left: 4rem;
+    color: white; 
+}
+
+.main-footer-sixth {
+    color: white;
+}
+
+.main-footer-sevnth {
+    color: white;
+}
+
+.main-footer a { 
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,47 @@
+.main-kidsprofile {
+    margin-top: 8px;
+}
+
+.main-kidsprofile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: black;
+}
+
+.main-kidsprofile-container-left {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-kidsprofile-container-left img {
+    height: 55vh;
+    width: 34vw;
+}
+
+.main-kidsprofile-container-right { 
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.main-kidsprofile-container-right h1 {
+    margin-right: 10rem;
+}
+
+.main-kidsprofile-container-right h5{
+    margin-right:5rem;
+    margin-top: 4px;
+}

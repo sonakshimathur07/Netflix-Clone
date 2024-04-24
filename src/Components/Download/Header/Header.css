@@ -1,0 +1,116 @@
+*{
+    padding:0;
+    margin: 0;
+
+}
+
+.main {
+    background-image: url("D:\Banner.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+
+
+.main-box {
+   height: 70vh; 
+   width: 100%;
+   opacity: 0.44;
+   position:absolute;
+   top: 0;
+   background-color: black;
+}
+
+.main-nav {
+    max-width: 80vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 62px;
+}
+
+.main-nav img {
+    background-color: rgba(0,0,0,0);
+    height: 3rem;
+
+    margin-right: 43rem;
+    position: absolute;
+
+}
+
+.main-nav-btns {
+    display: flex;
+    position: relative;
+    z-index: 10;
+    gap: 1.5rem;
+    margin-left: 28rem;
+
+}
+
+#btn1 {
+    background: red;
+    color: white;
+    padding: 7px;
+    width: 4rem;
+    border: none;
+    border-radius: 5px;  
+}
+
+#btn {
+    padding: 7px;
+    width: 6rem;
+    border-color: white;
+    color: white;
+    background: transparent;
+    border-radius: 5px;
+
+}
+
+.hero{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-family: Arial, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    justify-content: center;
+    flex-direction: column;
+    color:white;
+    position: relative;
+    gap: 23px;
+}
+
+.hero :nth-child(1){
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.hero :nth-child(2) {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.hero :nth-child(3){
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.email{
+    width: 27rem;
+    margin: 5px;
+    font-size: 15px;
+    background: transparent;
+    height: 3rem;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.getstartbtn{
+    height: 4rem;
+    width: 14rem;
+    border-radius: 5px;
+    border: none;
+    background: red;
+}
+

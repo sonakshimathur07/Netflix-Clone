@@ -1,0 +1,58 @@
+.main-watch {
+   margin-top: 10px;
+}
+
+.main-watch-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: black;
+}
+
+.main-watch-container-left {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.main-watch-container-left h1 {
+    margin-left: 6rem;
+}
+
+.main-watch-container-left h5 {
+    margin-left: 10rem;
+    margin-top: 26px;
+}
+
+.main-watch-container-right {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.main-watch-container-right img {
+    height: 55vh;
+    width: 34vw;
+    position: relative;
+    z-index: 10;
+}
+
+.main-watch-container-right video {
+    position: absolute;
+    height: 9rem;
+    width: 13rem;
+    right: 13rem;
+    bottom: 9rem;
+}

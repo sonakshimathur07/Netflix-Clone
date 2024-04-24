@@ -1,0 +1,36 @@
+.main-faq {
+    margin-top: 10px;
+}
+
+.main-faq-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: black;
+}
+
+.main-faq-container h1 {
+    font-size: 2.5rem;
+    margin-top: -12rem;
+    margin-left: 12rem;
+    font-weight: 700;
+    color: white;
+}
+
+.main-faq-box {
+    display: flex;
+    background-color: gray;
+    padding: 34px;
+}
+
+.text {
+    display: none;
+    padding: 20px;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.text.active {
+    display: block;
+}
