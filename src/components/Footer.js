@@ -2,7 +2,7 @@ import React from "react";
 
 const NetflixFooter = () => {
   return (
-    <div className="bg-black text-white h-screen flex flex-col justify-between">
+    <div className="bg-black text-white  w-screen h-screen flex flex-col justify-between">
  
       <div className="flex flex-col items-center justify-center py-12">
 
