@@ -1,26 +1,32 @@
 import { useDispatch } from "react-redux";
-import { API_options } from '../utils/constants'
+import { useState, useEffect } from "react";
+import { API_options } from '../utils/constants';
 import { addPopularMovies } from '../utils/moviesSlice';
-import React, { useEffect } from 'react'
 
 const usePopularMovies = () => {
+  const dispatch = useDispatch();
+  const [loading, setLoading] = useState(true);
 
-    //Fetch data from TMDB API and update store
-    const dispatch = useDispatch();
+  const getPopularMovies = async () => {
+    try {
+      const response = await fetch(
+        'https://api.themoviedb.org/3/movie/popular?page=1',
+        API_options
+      );
+      const json = await response.json();
+      dispatch(addPopularMovies(json.results));
+    } catch (error) {
+      console.error("Error fetching popular movies:", error);
+    } finally {
+      setLoading(false);
+    }
+  };
 
-    const getPopularMovies = async () => {
-        const data = await
-            fetch('https://api.themoviedb.org/3/movie/popular?page=1'
-                , API_options);
-        const json = await data.json();
-       
-        dispatch(addPopularMovies(json.results))
-    };
+  useEffect(() => {
+    getPopularMovies();
+  }, []);
 
-    useEffect(() => {
-        getPopularMovies();
-    }, [])
-
+  return loading;
 };
 
 export default usePopularMovies;
