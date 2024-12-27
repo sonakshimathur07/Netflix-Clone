@@ -22,4 +22,3 @@ export const API_options = {
 
  export const MoviesSearch = 'https://api.themoviedb.org/3/search/movie?query=';
 
-//  export const OPENAI_API_KEY = "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";
