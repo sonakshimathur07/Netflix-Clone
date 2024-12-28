@@ -8,7 +8,7 @@ export const API_options = {
     method: 'GET',
     headers: {
       accept: 'application/json',
-      Authorization: `Bearer ${process.env.REACT_APP_TMDB_KEY}` 
+      Authorization:`Bearer ${process.env.REACT_APP_TMDB_KEY}`
     }
   };
 
@@ -20,5 +20,4 @@ export const API_options = {
   {identifer:"spanish", name:"Spanish"}
  ];
 
- export const MoviesSearch = 'https://api.themoviedb.org/3/search/movie?query=';
-
+ export const MoviesSearch = `${process.env.REACT_APP_MOVIE_SEARCH_KEY}`
